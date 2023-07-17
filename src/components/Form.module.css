@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 30px;
+  border: 1px solid white;
+}
+
+.formControl label {
+  display: block;
+}
+.formControl input {
+  width: 80%;
+  padding: 8px 16px;
+}
